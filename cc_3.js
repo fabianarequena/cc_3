@@ -27,4 +27,12 @@ let employee = {
     employee.promotionEligible = true; // Added a new property for promotion eligibility using boolean to make it true
     console.log("Updated Employee Performance Tracking:", employee);
 
-    
+   
+// Task 4: Customer Feedback Records
+let feedback = [
+    { customerName: "Sophia", feedbackText: "Lowkey impatient", rating: 1 },
+    { customerName: "Aanika", feedbackText: "Kinda annoying", rating: 2 },
+    { customerName: "Horacio", feedbackText: "Delightful service", rating: 4 }
+]; // Added the customer names as well as the feedback for each one, followed by their rating
+feedback.push({ customerName: "Nia", feedbackText: "Best service I've ever recieved", rating: 5 }); // Adding another customer as seen above with more feedback and rating
+console.log("Feedback List:", feedback); 
