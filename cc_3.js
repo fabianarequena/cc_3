@@ -15,3 +15,16 @@ let totalOrders = orders.reduce((total, num) => total + num, 0); // Calculated t
 console.log("Updated Orders:", orders);
 console.log("Total Order Count:", totalOrders);
  
+
+// Task 3: Employee Performance Tracking
+let employee = {
+    name: "Tania Mendoza",
+    role: "Pathologist",
+    performanceScore: 95,
+    isActive: true
+    };
+    employee.performanceScore = 97; // Updated performance score from 95 to 97
+    employee.promotionEligible = true; // Added a new property for promotion eligibility using boolean to make it true
+    console.log("Updated Employee Performance Tracking:", employee);
+
+    
